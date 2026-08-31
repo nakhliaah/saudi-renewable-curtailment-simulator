@@ -1,0 +1,17 @@
+Project,Region,Technology,Operation year,Capacity MW,Investment SAR bn,LCOE US cents/kWh,LCOE halala/kWh,Estimated households,Proxy bus,Source status
+Sakaka,Al-Jouf,Solar,2019,300.0,1.16,2.34,8.78,54800,5,Official GASTAT / Ministry of Energy
+Dumat Al-Jandal,Al-Jouf,Wind,2021,400.0,1.58,2.13,7.99,93400,7,Official GASTAT / Ministry of Energy
+Jeddah,Makkah,Solar,2023,300.0,0.89,1.62,6.08,54900,8,Official GASTAT / Ministry of Energy
+Rabigh 1,Makkah,Solar,2023,300.0,0.75,1.7,6.38,52700,9,Official GASTAT / Ministry of Energy
+Al Shuaibah 1,Makkah,Solar,2023,600.0,2,1.04,3.9,102000,10,Official GASTAT / Ministry of Energy
+Sudair,Riyadh,Solar,2023,1500.0,3.47,1.24,4.65,262800,21,Official GASTAT / Ministry of Energy
+Saad 1,Riyadh,Solar,2024,300.0,0.85,1.48,5.55,46000,22,Official GASTAT / Ministry of Energy
+Ar Rass 1,Qassim,Solar,2024,700.0,1.85,1.49,5.59,110200,15,Official GASTAT / Ministry of Energy
+Layla,Riyadh,Solar,2024,91.0,0.4,2.98,11.18,14000,23,Official GASTAT / Ministry of Energy
+Al Shuaibah 2,Makkah,Solar,2024,2060.0,6.9,1.79,6.71,350000,14,Official GASTAT / Ministry of Energy
+Saad 2,Riyadh,Solar,2025,1125.0,3.11,1.79,6.71,175500,24,Official GASTAT / Ministry of Energy
+Al Kahfah,Hail,Solar,2025,1425.0,4.06,1.77,6.64,244000,18,Official GASTAT / Ministry of Energy
+Ar Rass 2,Qassim,Solar,2025,2000.0,5.52,1.69,6.34,314000,16,Official GASTAT / Ministry of Energy
+Wadi Al-Dawasir,Riyadh,Solar,2025,112.0,0.45,1.87,7.01,15500,15,Official GASTAT / Ministry of Energy
+Al Henakiyah 1,Madinah,Solar,2025,1100.0,3.13,1.68,6.3,190000,13,Official GASTAT / Ministry of Energy
+
