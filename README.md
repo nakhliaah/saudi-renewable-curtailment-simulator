@@ -9,16 +9,17 @@ scaled onto a representative test network; the app never presents that proxy
 mapping as the real Saudi transmission grid. The original MILP/MISOCP files
 remain unchanged in the Downloads folder.
 
-## Run the model checks
+## Install and run
 
-```powershell
-& 'C:\Users\drmad\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' -c "from tests.test_model import test_energy_and_limits, test_combined_not_worse_than_no_intervention, test_official_catalog_totals_and_wind_normalization; test_energy_and_limits(); test_combined_not_worse_than_no_intervention(); test_official_catalog_totals_and_wind_normalization(); print('Model checks passed')"
+```bash
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
 ```
 
-## Start the dashboard
+## Run the model checks
 
-```powershell
-& 'C:\Users\drmad\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' -m streamlit run app.py
+```bash
+python -c "from tests.test_model import test_energy_and_limits, test_combined_not_worse_than_no_intervention, test_official_catalog_totals_and_wind_normalization; test_energy_and_limits(); test_combined_not_worse_than_no_intervention(); test_official_catalog_totals_and_wind_normalization(); print('Model checks passed')"
 ```
 
 The prototype uses public/synthetic test-system inputs. It is intended to test
